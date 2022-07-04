@@ -1,0 +1,54 @@
+.gallery-box {
+    /* width: 1000px;
+    height: 900px;
+    margin: auto; */
+    position: relative;
+    /* background-color: beige; */
+}
+
+.gallery-box img {
+    width: 100%;
+    max-width: auto;
+    /* height: auto; */
+    max-height: 900px;
+    min-height: 500px;
+    height: clamp(500px 600px 900px);
+}
+
+
+.mySlides {
+    display:none;
+}
+
+.button-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transform: scale(5,3);
+}
+
+.button-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transform: scale(5,3);
+}
+
+button {
+   background-color: transparent;
+   border: none;
+   color: white;
+   padding: 100px 100px;
+}
+
+@media only screen and (max-width: 414px) {
+    .button-left {
+        top: -35px;
+        left: -50px;
+    }
+    
+    .button-right {
+        top: -35px;
+        right: -50px;
+    }
+}

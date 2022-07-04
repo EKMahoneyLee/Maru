@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    /* cursor: url('../images/maru1.png') 4 12 , auto; */
+       /* cursor: url('../images/sushi1.png')  4 12 , auto; */
+       /* cursor: url('../images/sashimi1.png')  4 12 , auto; */
+       /* overflow-x: hidden; */
+       
+}
+
+.header-background {    
+    background-attachment: fixed;
+    background-image: url('../images/main.jpg');
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.top-text {
+     text-align: center;
+     padding-top: 250px;
+}
+
+p.cuisine{
+    color: white;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin: -50px 0 -20px 0;
+    /* font-family: 'Merienda', cursive; */
+    font-size: 30px;
+}
+
+h1.header-maru {
+    margin: 0;
+    font-size: 250px;   
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+}
+
+@media only screen and (max-width: 414px) {
+    .header-background {
+        height: 60vh;
+        object-fit: cover;
+        background-position: center bottom;
+      
+    }
+
+    p.cuisine { 
+        letter-spacing: 4px;
+        margin: 0 15px 15px 15px;
+        font-size: 10px;
+    }
+    h1.header-maru{ font-size: 70px; }
+  }
+
+@media only screen and (min-width: 415px) {
+    p.cuisine { 
+        letter-spacing: 4px;
+        margin: 0 15px 15px 15px;
+        font-size: .9em;
+    }
+    h1.header-maru{ 
+        font-size: 90px; }
+}
+
+@media only screen and (min-width: 600px) {
+h1.header-maru{ font-size: 120px; }
+p.cuisine { font-size: 1.0em; }
+}
+
+@media only screen and (min-width: 768px) {
+h1.header-maru{ font-size: 130px; }
+p.cuisine { font-size: 1.1em; }
+} 
+
+@media only screen and (min-width: 992px) {
+h1.header-maru{ font-size: 200px; }
+p.cuisine { font-size: 25px; }
+} 
+
+@media only screen and (min-width: 1200px) {
+p.cuisine { font-size: 30px; }
+h1.header-maru{ font-size: 250px; }
+}

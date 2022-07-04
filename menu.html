@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arapey&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Sushi Maru</title>
+</head>
+<body>
+    <div class="menu-boxes" id="Menu">
+        <div class="menu-box">
+            <img class="mySlides1" src="./images/1.png" >
+            <img class="mySlides1" src="./images/2.png">
+            <img class="mySlides1" src="./images/3.png" >
+            <img class="mySlides1" src="./images/4.png">
+            <img class="mySlides1" src="./images/5.png" >
+            <button class="left" onclick="plusDivs(-1, 0)">&#10094;</button>
+            <button  class="right" onclick="plusDivs(1, 0)">&#10095;</button>
+          </div>
+    </div>
+
+    <script>
+        var slideIndex = [1,1];
+        var slideId = ["mySlides1", "mySlides2"]
+        showDivs(1, 0);
+        showDivs(1, 1);
+        
+        function plusDivs(n, no) {
+          showDivs(slideIndex[no] += n, no);
+        }
+        
+        function showDivs(n, no) {
+          var i;
+          var x = document.getElementsByClassName(slideId[no]);
+          if (n > x.length) {slideIndex[no] = 1}
+          if (n < 1) {slideIndex[no] = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex[no]-1].style.display = "block";  
+        }
+        </script>
+</body>
+</html>

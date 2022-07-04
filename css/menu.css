@@ -1,0 +1,178 @@
+.menu-box {
+    /* width: 100vw; */
+    /* background-image: url('../images/background.png'); */
+    background-color: white;
+    padding: 100px 0;
+}
+
+#menu-boxes {
+    padding: 0 50px;
+    padding-top: 60px;
+    margin: auto;
+    background-color: transparent;
+}
+
+#menu-boxes nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    justify-items: center;
+}
+
+
+#menu-boxes nav::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#menu-boxes label {
+	cursor: pointer;
+    background-color: black;
+	display: inline-block;
+	color: white;
+    /* color: black; */
+    font-size: 20px;
+	padding: 6px 15px;
+    /* border-radius: 16px; */
+    text-transform: uppercase;
+	float: left;
+	transition: background-color .3s;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#menu-boxes label:hover {
+	background-color: rgba(255,255,255,.1);
+    border-bottom: 2px solid #0087ca;
+    color: black;
+}
+
+#menu-boxes > .menu-row {
+    background-color: transparent;
+	display: none;
+    /* color: white; */
+    color: black;
+}
+
+/* Clear floats after the columns */
+.menu-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu-row > h4 {
+    padding: 10px 0;
+}
+
+.menu-row {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.split-column {
+    float: left;
+    width: 44%; 
+}
+
+.menu-column {
+    margin-bottom: 20px;
+}
+
+
+.menu-column h4 {
+    padding-bottom: 20px 0;
+    margin-bottom: 0;
+}
+
+.menu-column span {
+    padding-bottom: 10px;
+}
+
+
+.menu-column span {float: right; }
+
+.split-column:nth-of-type(2){ margin-left: 50px;}
+
+.menu-column:hover { transform: scale(1.03); }
+#panel1 { cursor: url('../images/tea.png')  4 12 , auto; }
+#panel2 { cursor: url('../images/avocado.png')  4 12 , auto; }
+#panel3 { cursor: url('../images/sushi.png')  4 12 , auto; }
+#panel4 { cursor: url('../images/fresh.png')  4 12 , auto; }
+#panel5 { cursor: url('../images/sushi.png')  4 12 , auto; }
+#panel6 { cursor: url('../images/ramen.png')  4 12 , auto; }
+#panel7 { cursor: url('../images/onigiri.png')  4 12 , auto; }
+#panel8 { cursor: url('../images/sashimi.png')  4 12 , auto; }
+
+#menu-boxes input { display: none; }
+
+#menu-boxes > input[id='tab1']:checked ~ nav label[for='tab1'],
+#menu-boxes > input[id='tab2']:checked ~ nav label[for='tab2'],
+#menu-boxes > input[id='tab3']:checked ~ nav label[for='tab3'],
+#menu-boxes > input[id='tab4']:checked ~ nav label[for='tab4'],
+#menu-boxes > input[id='tab5']:checked ~ nav label[for='tab5'],
+#menu-boxes > input[id='tab6']:checked ~ nav label[for='tab6'],
+#menu-boxes > input[id='tab7']:checked ~ nav label[for='tab7'],
+#menu-boxes > input[id='tab8']:checked ~ nav label[for='tab8'] {
+    color: #0087ca;;
+}
+
+#menu-boxes > input[id='tab1']:checked ~ div[id='panel1'],
+#menu-boxes > input[id='tab2']:checked ~ div[id='panel2'],
+#menu-boxes > input[id='tab3']:checked ~ div[id='panel3'],
+#menu-boxes > input[id='tab4']:checked ~ div[id='panel4'],
+#menu-boxes > input[id='tab5']:checked ~ div[id='panel5'],
+#menu-boxes > input[id='tab6']:checked ~ div[id='panel6'],
+#menu-boxes > input[id='tab7']:checked ~ div[id='panel7'],
+#menu-boxes > input[id='tab8']:checked ~ div[id='panel8']  {
+	display: block;
+}
+
+@media only screen and (max-width: 992px) {
+    #menu-boxes .menu-row{
+        width: 100%;
+        margin: auto;
+    }
+
+    .split-column {
+        float: left;
+        width: 90vw;
+        margin: auto;
+        padding: 0 20px 0 0;
+    }
+
+    .menu-column span {
+        float: right;
+    }
+
+    .menu-column h4 {
+        padding-right: 15px;  
+        font-size: 20px; 
+    } 
+    
+    .split-column:nth-of-type(2){
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 415px) {
+   
+}
+
+ 
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+} 
+
+@media only screen and (min-width: 992px) {
+
+} 
+
+@media only screen and (min-width: 1200px) {
+
+}

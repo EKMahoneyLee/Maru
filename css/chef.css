@@ -1,0 +1,20 @@
+.about-chef{
+    padding: 150px 0;
+    /* background-color: #fff; */
+    background-color: black;
+    /* width: 100vw; */
+    min-height: 150px;
+}
+
+.about-section{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.about-right {
+    /* color: #000; */
+    color: white;
+    font-size: 1.5em;
+    line-height: 40px;
+}
