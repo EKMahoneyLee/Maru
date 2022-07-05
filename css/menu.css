@@ -1,16 +1,4 @@
-.menu-box {
-    /* width: 100vw; */
-    /* background-image: url('../images/background.png'); */
-    background-color: white;
-    padding: 100px 0;
-}
-
-#menu-boxes {
-    padding: 0 50px;
-    padding-top: 60px;
-    margin: auto;
-    background-color: transparent;
-}
+.menu-box { padding: 100px 0;}
 
 #menu-boxes nav {
     display: flex;
@@ -19,6 +7,11 @@
     justify-content:center;
     gap: 5px;
     justify-items: center;
+    margin-bottom: 20px;
+    border: 1px solid black;  
+    padding: 20px 0;
+    font-weight: 900;
+    background: black;
 }
 
 
@@ -30,18 +23,13 @@
 
 #menu-boxes label {
 	cursor: pointer;
-    background-color: black;
 	display: inline-block;
 	color: white;
-    /* color: black; */
     font-size: 25px;
-	padding: 6px 15px;
-    border-radius: 30px;
+	padding: 0 15px;
     text-transform: uppercase;
-	float: left;
-	transition: background-color .3s;
-    margin-bottom: 20px;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+	/* float: left; */
+	/* transition: background-color .3s; */
 }
 
 .link {
@@ -53,25 +41,35 @@
     margin-bottom: 10px;
 }
 
+.notice {
+    margin-bottom: 30px;
+}
+
 .notice p {
     text-align: center;
     margin-bottom: 0;
 }
 
-
-
-
 #menu-boxes label:hover {
 	background-color: rgba(255,255,255,.1);
     border-bottom: 2px solid #0087ca;
-    color: black;
+    color: white;
 }
 
 #menu-boxes > .menu-row {
+    width: 60%;
+    margin: auto auto;
     background-color: transparent;
 	display: none;
-    /* color: white; */
     color: black;
+}
+
+#menu-boxes > .menu-row > h4 {
+    margin-bottom: 0;
+}
+
+.split-column {
+    margin: 20px 0 80px 0;
 }
 
 /* Clear floats after the columns */
@@ -81,10 +79,6 @@
     clear: both;
 }
 
-.menu-row > h4 {
-    padding: 10px 0;
-}
-
 .menu-row {
     margin-top: 30px;
     margin-left: 50px;
@@ -92,17 +86,11 @@
 
 .split-column {
     float: left;
-    width: 44%; 
+    width: 45%; 
 }
 
 .menu-column {
     margin-bottom: 20px;
-}
-
-
-.menu-column h4 {
-    padding-bottom: 20px 0;
-    margin-bottom: 0;
 }
 
 .menu-column span {
@@ -112,7 +100,7 @@
 
 .menu-column span {float: right; }
 
-.split-column:nth-of-type(2){ margin-left: 50px;}
+.split-column:nth-of-type(2){ margin-left: 70px;}
 
 .menu-column:hover { transform: scale(1.03); }
 #panel1 { cursor: url('../images/tea.png')  4 12 , auto; }
@@ -149,63 +137,32 @@
 }
 
 @media only screen and (max-width: 992px) {
+    #menu-boxes{ padding: 0 0; }
     #menu-boxes .menu-row{
         width: 100%;
         margin: auto;
     }
 
-    #menu-boxes {
-        padding: 0 20px;}
-
     .split-column {
         float: left;
-        width: 90vw;
+        width: 100vw;
         margin: auto;
+        padding: 0 20px;
     }
 
-    .menu-column span {
-        float: right;
-    }
-
-    .menu-column h4 {
-        padding-right: 15px;  
-        font-size: 20px; 
-    } 
-    
-    .split-column:nth-of-type(2){
-        margin-left: 0;
-    }
-
+    .menu-column span {float: right; }
+    .menu-column h4 { font-size: 20px; }     
+    .split-column:nth-of-type(2){margin-left: 0; }
     .link {
-    gap: 10px;
-    margin-bottom: 20px;
+        gap: 10px;
+        margin-bottom: 20px;
     }
 
-    .notice {
-        margin-bottom: 30px;
-    }
+    .notice { margin-bottom: 30px; }
 
-    #menu-boxes label {
+    #menu-boxes label { 
         font-size: 15px;
+        color: white; 
     }
 }
 
-@media only screen and (min-width: 415px) {
-   
-}
-
- 
-@media only screen and (min-width: 600px) {
-
-}
-
-@media only screen and (min-width: 768px) {
-} 
-
-@media only screen and (min-width: 992px) {
-
-} 
-
-@media only screen and (min-width: 1200px) {
-
-}

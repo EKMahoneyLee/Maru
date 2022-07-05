@@ -19,3 +19,18 @@ p.about {
     text-align: center;
     margin: auto;
 }
+
+
+@media only screen and (max-width: 414px) {
+    div.about{
+        padding: 100px 0;
+    }
+
+    .about-title{
+        font-size: 30px;
+    }
+    p.about {
+        width: 90%;
+        font-size: 1.3em;
+    }
+}
