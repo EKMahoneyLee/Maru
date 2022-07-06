@@ -23,7 +23,7 @@
 #menu-boxes label {
 	cursor: pointer;
 	display: inline-block;
-	color: black;
+	color: white;
     font-size: 25px;
 	padding: 0 15px;
     text-transform: uppercase;
@@ -134,7 +134,7 @@
 #menu-boxes > input[id='tab6']:checked ~ nav label[for='tab6'],
 #menu-boxes > input[id='tab7']:checked ~ nav label[for='tab7'],
 #menu-boxes > input[id='tab8']:checked ~ nav label[for='tab8'] {
-    color: white;;
+    color: brown;;
 }
 
 #menu-boxes > input[id='tab1']:checked ~ div[id='panel1'],
