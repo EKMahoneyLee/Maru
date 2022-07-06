@@ -31,6 +31,12 @@
 	/* transition: background-color .3s; */
 }
 
+#menu-boxes label:hover {
+	background-color: rgba(255,255,255,.1);
+    border-bottom: 2px solid white;
+    color: brown;
+}
+
 .link {
     display: flex;
     flex-direction: row;
@@ -60,12 +66,6 @@
 .notice p {
     text-align: center;
     margin-bottom: 0;
-}
-
-#menu-boxes label:hover {
-	background-color: rgba(255,255,255,.1);
-    border-bottom: 2px solid white;
-    color: white;
 }
 
 #menu-boxes > .menu-row {
@@ -113,6 +113,14 @@
 .menu-column span {float: right; }
 
 .split-column:nth-of-type(2){ margin-left: 70px;}
+
+#panel4 h4 span,
+#panel5 h4 span,
+#panel6 h4 span,
+#panel7 h4 span,
+#panel8 h4 span {
+    color: brown;
+}
 
 .menu-column:hover { transform: scale(1.03); }
 #panel1 { cursor: url('../images/tea.png')  4 12 , auto; }
