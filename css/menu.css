@@ -39,6 +39,7 @@
     justify-content: center;
     gap: 60px;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .notice {
@@ -138,6 +139,7 @@
 
 @media only screen and (max-width: 992px) {
     #menu-boxes{ padding: 0 0; }
+
     #menu-boxes .menu-row{
         width: 100%;
         margin: auto;
