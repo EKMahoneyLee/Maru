@@ -134,7 +134,7 @@
 #menu-boxes > input[id='tab6']:checked ~ nav label[for='tab6'],
 #menu-boxes > input[id='tab7']:checked ~ nav label[for='tab7'],
 #menu-boxes > input[id='tab8']:checked ~ nav label[for='tab8'] {
-    color: brown;;
+    color: brown;
 }
 
 #menu-boxes > input[id='tab1']:checked ~ div[id='panel1'],
