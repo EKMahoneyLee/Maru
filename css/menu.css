@@ -1,4 +1,4 @@
-.menu-box { padding: 100px 0;}
+.menu-box { padding: 0 0 100px 0;}
 
 #menu-boxes nav {
     display: flex;
@@ -7,11 +7,10 @@
     justify-content:center;
     gap: 5px;
     justify-items: center;
-    margin-bottom: 20px;
-    border: 1px solid black;  
-    padding: 20px 0;
+    margin-bottom: 50px;
+    padding: 150px 0 30px 0;
     font-weight: 900;
-    background: black;
+    background: rgba(0,0,0,.8);
 }
 
 
@@ -24,7 +23,7 @@
 #menu-boxes label {
 	cursor: pointer;
 	display: inline-block;
-	color: white;
+	color: black;
     font-size: 25px;
 	padding: 0 15px;
     text-transform: uppercase;
@@ -42,6 +41,18 @@
     text-transform: uppercase;
 }
 
+.link a:link,
+.link a:visited {
+    text-decoration: none;
+    background: rgba(0,0,0,.5);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
 .notice {
     margin-bottom: 30px;
 }
@@ -53,7 +64,7 @@
 
 #menu-boxes label:hover {
 	background-color: rgba(255,255,255,.1);
-    border-bottom: 2px solid #0087ca;
+    border-bottom: 2px solid white;
     color: white;
 }
 
@@ -123,7 +134,7 @@
 #menu-boxes > input[id='tab6']:checked ~ nav label[for='tab6'],
 #menu-boxes > input[id='tab7']:checked ~ nav label[for='tab7'],
 #menu-boxes > input[id='tab8']:checked ~ nav label[for='tab8'] {
-    color: #0087ca;;
+    color: white;;
 }
 
 #menu-boxes > input[id='tab1']:checked ~ div[id='panel1'],
@@ -161,10 +172,6 @@
     }
 
     .notice { margin-bottom: 30px; }
-
-    #menu-boxes label { 
-        font-size: 15px;
-        color: white; 
-    }
+    #menu-boxes nav {padding-top: 25px;}
 }
 

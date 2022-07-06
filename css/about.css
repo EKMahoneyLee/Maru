@@ -14,10 +14,14 @@ div.about{
 p.about {
     width: 80%;
     color: black;
-    font-size: 1.5em;
+    font-size: 1.4em;
     line-height: 40px;
     text-align: center;
     margin: auto;
+}
+
+strong {
+    font-size: 1.5em;
 }
 
 

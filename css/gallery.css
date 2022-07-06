@@ -53,12 +53,10 @@
 
   @media only screen and (max-width: 600px) {
  
-        .flex-item-right, .flex-item-left,
-        .flex-item-middle  {
-            flex: 100%;
-          }
-  
-
+      .flex-item-right, .flex-item-left,
+      .flex-item-middle  {
+          flex: 100%;
+        }
   }
 
 
