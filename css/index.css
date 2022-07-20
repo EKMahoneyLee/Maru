@@ -12,10 +12,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     /* cursor: url('../images/maru1.png') 4 12 , auto; */
-       /* cursor: url('../images/sushi1.png')  4 12 , auto; */
-       /* cursor: url('../images/sashimi1.png')  4 12 , auto; */
-       /* overflow-x: hidden; */
-       
+    /* cursor: url('../images/sushi1.png')  4 12 , auto; */
+    /* cursor: url('../images/sashimi.png')  4 12 , auto; */
+    /* overflow-x: hidden; */  
 }
 
 .header-background {    
