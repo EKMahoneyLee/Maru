@@ -63,6 +63,7 @@
 
 .notice {
     margin-bottom: 30px;
+    padding: 0 10px;
 }
 
 .notice p {
@@ -94,8 +95,13 @@
 }
 
 .menu-row {
-    margin-top: 30px;
-    margin-left: 50px;
+    padding: 0 5px;
+}
+
+.menu-row h3{
+    font-weight: 900;
+    font-size: 30px;
+    /* padding: 0 5px; */
 }
 
 .split-column {
@@ -105,6 +111,10 @@
 
 .menu-column {
     margin-bottom: 20px;
+}
+
+h5 span {
+    font-size: 15px;
 }
 
 .menu-column:hover {
@@ -179,7 +189,7 @@
 
     #menu-boxes .menu-row{
         width: 100%;
-        margin: auto;
+        margin: 70px auto;
     }
 
     .split-column {

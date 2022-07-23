@@ -11,15 +11,29 @@
   .flex-item-right,
   .flex-item-middle {
     flex:33.333%;
-    height: clamp(300px, 500px, 600px);
+    height: clamp(400px, 500px, 600px);
   }
 
   .flex-item-left:hover,
   .flex-item-right:hover,
   .flex-item-middle:hover {
     transform: scale(.95);
-    /* border: 3px solid red; */
-    
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+    z-index: 100;
+    opacity: .7;
+  }
+
+  .img_description {
+    visibility: hidden;
+  }
+
+  .flex-item-left:hover .img_description, 
+  .flex-item-right:hover .img_description,
+  .flex-item-middle:hover .img_description  {
+    visibility: visible;
+    color: white;
+    margin-top: 20%;
   }
   
 
