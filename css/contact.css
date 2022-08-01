@@ -103,6 +103,35 @@ color: #0087ca;
   transform-origin: bottom left;
 }
 
+.question::after {
+  content: '?';
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 2.8ex;
+  height: 2.8ex;
+  font-size: 1.4ex;
+  line-height: 1.8ex;
+  border-radius: 1.2ex;
+  margin-left: 4px;
+  padding: 1px;
+  color: brown;
+  background: white;
+  border: 1px solid brown;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.question:hover:after
+{
+    color: white;
+    background: #0087ca;
+    border-color: white;
+    text-decoration: none;
+}
+
+
 @media only screen and (max-width: 992px) {
   .con {
     display: flex;

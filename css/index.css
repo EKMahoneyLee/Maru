@@ -42,9 +42,10 @@ p.cuisine{
 
 h1.header-maru {
     margin: 0;
-    font-size: 250px;   
-    font-family: 'Dancing Script', cursive;
+    font-size: 50px;   
+    /* font-family: 'Dancing Script', cursive; */
     color: #fff;
+    width: 80%;
 }
 
 
@@ -160,7 +161,9 @@ label .menu {
         margin: 0 15px 15px 15px;
         font-size: 10px;
     }
-    h1.header-maru{ font-size: 70px; }
+    h1.header-maru{ font-size: 40px; 
+      margin: auto;
+    }
   }
 
 @media only screen and (min-width: 415px) {
@@ -170,25 +173,31 @@ label .menu {
         font-size: .9em;
     }
     h1.header-maru{ 
-        font-size: 90px; }
+        font-size: 40px; 
+        margin: auto;}
 }
 
 @media only screen and (min-width: 600px) {
-h1.header-maru{ font-size: 120px; }
+h1.header-maru{ font-size:40x;
+  margin: auto; }
 p.cuisine { font-size: 1.0em; }
 }
 
 @media only screen and (min-width: 768px) {
-h1.header-maru{ font-size: 130px; }
+h1.header-maru{ font-size: 75px; 
+  margin: auto;}
 p.cuisine { font-size: 1.1em; }
 } 
 
 @media only screen and (min-width: 992px) {
-h1.header-maru{ font-size: 200px; }
+h1.header-maru{ font-size: 100px; 
+  margin: auto;}
 p.cuisine { font-size: 25px; }
 } 
 
 @media only screen and (min-width: 1200px) {
 p.cuisine { font-size: 30px; }
-h1.header-maru{ font-size: 250px; }
+h1.header-maru{ font-size: 115px; 
+  margin: auto;
+}
 }
