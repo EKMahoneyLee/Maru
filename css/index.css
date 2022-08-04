@@ -20,6 +20,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .header-background {    
     background-attachment: fixed;
     background-image: url('../images/main.jpg');
+    background-color: black;
     height: 100vh; 
     background-position: center;
     background-repeat: no-repeat;
@@ -28,24 +29,28 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .top-text {
      text-align: center;
-     padding-top: 150px;
+     padding-top: 250px;
+     /* margin: auto;
+     width: 80%; */
 }
 
 p.cuisine{
     color: white;
+    text-align: center;
     letter-spacing: 6px;
     text-transform: uppercase;
     margin: -50px 0 -20px 0;
-    /* font-family: 'Merienda', cursive; */
+    font-family: 'Merienda', cursive;
     font-size: 30px;
+
+    padding-bottom: 40px;
 }
 
 h1.header-maru {
     margin: 0;
     font-size: 50px;   
-    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Dancing Script', cursive;
     color: #fff;
-    width: 80%;
 }
 
 
@@ -145,8 +150,27 @@ label .menu {
     display: block;
     color: white;
     text-decoration: none;
-    
-  }  
+  } 
+  
+  .notice {
+    background-color: black;
+    margin: 200px auto;
+    width: 60%;
+    color: white;
+    text-align: center;
+  }
+  
+  .notice-sentence1 {
+    font-size: 60px;
+    padding: 100px 0;
+  }
+  
+  .notice-sentence {
+    font-size: 30px;
+    padding-bottom: 100px;
+  }
+
+
 
 @media only screen and (max-width: 414px) {
     .header-background {
@@ -161,8 +185,19 @@ label .menu {
         margin: 0 15px 15px 15px;
         font-size: 10px;
     }
-    h1.header-maru{ font-size: 40px; 
-      margin: auto;
+    h1.header-maru{ font-size: 70px; }
+
+    .notice {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .notice-sentence1 {
+      font-size: 30px;
+      padding: 100px 0 50px 0;
+    }
+    .notice-sentence {
+      font-size: 15px;
     }
   }
 
@@ -173,31 +208,58 @@ label .menu {
         font-size: .9em;
     }
     h1.header-maru{ 
-        font-size: 40px; 
-        margin: auto;}
+        font-size: 90px; 
+      }
+      .notice {
+        width: 100%;
+        margin: 0;
+      }
+    
+      .notice-sentence1 {
+        font-size: 30px;
+        padding: 100px 0 50px 0;
+      }
+      .notice-sentence {
+        font-size: 15px;
+      }
+      
 }
 
 @media only screen and (min-width: 600px) {
-h1.header-maru{ font-size:40x;
-  margin: auto; }
+h1.header-maru{ font-size:120x;
+ }
 p.cuisine { font-size: 1.0em; }
 }
 
 @media only screen and (min-width: 768px) {
-h1.header-maru{ font-size: 75px; 
-  margin: auto;}
+h1.header-maru{ font-size: 130px; 
+}
 p.cuisine { font-size: 1.1em; }
 } 
 
 @media only screen and (min-width: 992px) {
-h1.header-maru{ font-size: 100px; 
-  margin: auto;}
+h1.header-maru{ font-size: 200px; 
+}
 p.cuisine { font-size: 25px; }
+
+.notice {
+  margin: 100px auto;
+  width: 60%;
+}
+
+.notice-sentence1 {
+  font-size: 50px;
+}
+
+.notice-sentence {
+  font-size: 30px;
+  padding-bottom: 100px;
+}
 } 
 
 @media only screen and (min-width: 1200px) {
 p.cuisine { font-size: 30px; }
-h1.header-maru{ font-size: 115px; 
-  margin: auto;
+h1.header-maru{ font-size: 250px; 
+
 }
 }
