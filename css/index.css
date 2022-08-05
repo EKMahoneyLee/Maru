@@ -314,9 +314,6 @@ p.cuisine { font-size: 25px; }
   h1.header-maru{ font-size: 250px; 
   }
 
-  .popup{
-    width: 60vw;
-  }
   .popup button{
       margin:  30px -10px  0 auto;
   }
