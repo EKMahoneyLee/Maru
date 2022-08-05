@@ -262,7 +262,7 @@ label .menu {
 
     .popup{
       width: 100vw;
-      top: 39%;
+      top: 200px;
     }
     .popup button{
         margin:  30px -10px  0 auto;
