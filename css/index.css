@@ -177,7 +177,7 @@ label .menu {
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
-    top: 50%;
+    top: 55%;
     border-radius: 8px;
     font-family: "Poppins",sans-serif;
     display: none; 
@@ -262,7 +262,7 @@ label .menu {
 
     .popup{
       width: 100vw;
-      top: 200px;
+      top: 450px;
     }
     .popup button{
         margin:  30px -10px  0 auto;
@@ -275,7 +275,7 @@ h1.header-maru{ font-size:120x;
 p.cuisine { font-size: 1.0em; }
 
 .popup{
-  top: 38%;
+  top: 58%;
 }
 }
 
@@ -305,7 +305,7 @@ p.cuisine { font-size: 25px; }
 }
 
 .popup{
-  top: 45%;
+  top: 55%;
 }
 } 
 
