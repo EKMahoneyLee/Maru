@@ -59,7 +59,7 @@ label .menu {
     position: absolute;
     right: 10px;
     top: 10px;
-    z-index: 100;
+    z-index: 50;
     width: 100px;
     height: 100px;
     border-radius: 50% 50% 50% 50%;
@@ -152,7 +152,7 @@ label .menu {
     text-decoration: none;
   } 
   
-  .notice {
+  /* .notice {
     background-color: black;
     margin: 200px auto;
     width: 60%;
@@ -168,7 +168,36 @@ label .menu {
   .notice-sentence {
     font-size: 30px;
     padding-bottom: 100px;
-  }
+  } */
+
+  .popup{
+    background-color: #ffffff;
+    width: 100vw;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none; 
+    text-align: center;
+    z-index: 100;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+		background: #03549a;
+		border-radius: 100%;
+		width: 40px;
+		height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
 
 
 
@@ -194,41 +223,60 @@ label .menu {
   
     .notice-sentence1 {
       font-size: 30px;
-      padding: 100px 0 50px 0;
+      padding: 40px 0 50px 0;
     }
     .notice-sentence {
-      font-size: 15px;
+      font-size: 20px;
+    }
+      
+    .popup{
+      width: 100vw;
+      top: 34%;
+    }
+    .popup button{
+        margin:  30px -10px  0 auto;
     }
   }
 
 @media only screen and (min-width: 415px) {
-    p.cuisine { 
-        letter-spacing: 4px;
-        margin: 0 15px 15px 15px;
-        font-size: .9em;
+  p.cuisine { 
+      letter-spacing: 4px;
+      margin: 0 15px 15px 15px;
+      font-size: .9em;
+  }
+  h1.header-maru{ 
+      font-size: 90px; 
     }
-    h1.header-maru{ 
-        font-size: 90px; 
-      }
-      .notice {
-        width: 100%;
-        margin: 0;
-      }
-    
-      .notice-sentence1 {
-        font-size: 30px;
-        padding: 100px 0 50px 0;
-      }
-      .notice-sentence {
-        font-size: 15px;
-      }
-      
+    .notice {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .notice-sentence1 {
+      font-size: 30px;
+      padding: 50px 0 50px 0;
+    }
+    .notice-sentence {
+      font-size: 25px;
+    }
+
+    .popup{
+      width: 100vw;
+      top: 39%;
+    }
+    .popup button{
+        margin:  30px -10px  0 auto;
+    }  
 }
 
 @media only screen and (min-width: 600px) {
 h1.header-maru{ font-size:120x;
  }
 p.cuisine { font-size: 1.0em; }
+
+.popup{
+  top: 38%;
+}
 }
 
 @media only screen and (min-width: 768px) {
@@ -255,11 +303,21 @@ p.cuisine { font-size: 25px; }
   font-size: 30px;
   padding-bottom: 100px;
 }
+
+.popup{
+  top: 45%;
+}
 } 
 
 @media only screen and (min-width: 1200px) {
-p.cuisine { font-size: 30px; }
-h1.header-maru{ font-size: 250px; 
+  p.cuisine { font-size: 30px; }
+  h1.header-maru{ font-size: 250px; 
+  }
 
-}
+  .popup{
+    width: 60vw;
+  }
+  .popup button{
+      margin:  30px -10px  0 auto;
+  }
 }
