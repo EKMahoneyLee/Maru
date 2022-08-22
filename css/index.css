@@ -164,15 +164,15 @@ label .menu {
     font-size: 60px;
     padding: 100px 0;
   }
-  
+   */
   .notice-sentence {
-    font-size: 30px;
-    padding-bottom: 100px;
-  } */
+    padding: 50px;
+  }
 
   .popup{
-    background-color: #ffffff;
-    width: 100vw;
+    width: 40%;
+    background-color: black;
+    /* width: 100vw; */
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -183,6 +183,7 @@ label .menu {
     display: none; 
     text-align: center;
     z-index: 100;
+    color: #ffffff;
 }
 .popup button{
     display: block;
@@ -198,7 +199,6 @@ label .menu {
     outline: none;
     cursor: pointer;
 }
-
 
 
 @media only screen and (max-width: 414px) {
@@ -230,7 +230,7 @@ label .menu {
     }
       
     .popup{
-      width: 100vw;
+      width: 90%;
       top: 54%;
     }
     .popup button{
@@ -261,7 +261,7 @@ label .menu {
     }
 
     .popup{
-      width: 100vw;
+      width: 90%;
       top: 450px;
     }
     .popup button{
@@ -275,6 +275,7 @@ h1.header-maru{ font-size:120x;
 p.cuisine { font-size: 1.0em; }
 
 .popup{
+  width: 60%;
   top: 58%;
 }
 }
@@ -301,7 +302,7 @@ p.cuisine { font-size: 25px; }
 
 .notice-sentence {
   font-size: 30px;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
 .popup{
