@@ -133,7 +133,7 @@ label .menu {
     gap: 20px;
     text-transform: uppercase;
     margin-left: 40px;
-    z-index: 200;
+    z-index: 50;
     position: absolute;
     top: 140px;
     right: -110px;
