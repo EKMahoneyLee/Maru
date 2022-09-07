@@ -24,14 +24,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     height: 100vh; 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover ;
+    background-size: cover;
 }
 
 .top-text {
-     text-align: center;
-     padding-top: 250px;
-     /* margin: auto;
-     width: 80%; */
+    text-align: center;
+    padding-top: 5%;
 }
 
 p.cuisine{
@@ -50,7 +48,8 @@ h1.header-maru {
     margin: 0;
     font-size: 50px;   
     font-family: 'Dancing Script', cursive;
-    color: #fff;
+    color: white;
+    font-weight: 900;
 }
 
 
@@ -201,13 +200,36 @@ label .menu {
     z-index: 100;
 }
 
+.header-background {    
+  /* background-attachment: fixed;
+  background-image: url('../images/main_1.jpg');
+  background-color: black;
+  height: 100vh; 
+  background-position: center;
+  background-repeat: no-repeat; */
+  background-size: cover;
+}
 
 @media only screen and (max-width: 414px) {
-    .header-background {
-        /* height: 80vh; */
+    /* .header-background {
         object-fit: cover;
-        background-position: center bottom;
+        background-position: bottom bottom;
       
+    } */
+
+    .header-background {    
+      /* background-attachment: fixed;
+      background-image: url('../images/main_1.jpg');
+      background-color: black;
+      height: 100vh; 
+      background-position: center;
+      background-repeat: no-repeat; */
+      background-size: cover;
+  }
+
+    .top-text {
+      text-align: center;
+      padding-top: 35%;
     }
 
     p.cuisine { 
@@ -312,6 +334,10 @@ p.cuisine { font-size: 25px; }
 } 
 
 @media only screen and (min-width: 1200px) {
+  .top-text {
+    text-align: center;
+    padding-top: 15%;
+}
   p.cuisine { font-size: 30px; }
   h1.header-maru{ font-size: 250px; 
   }
