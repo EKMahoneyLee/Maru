@@ -262,6 +262,9 @@ label .menu {
   }
 
 @media only screen and (min-width: 415px) {
+  .top-text {
+    padding-top: 30%;
+  }
   p.cuisine { 
       letter-spacing: 4px;
       margin: 0 15px 15px 15px;
@@ -304,12 +307,18 @@ p.cuisine { font-size: 1.0em; }
 }
 
 @media only screen and (min-width: 768px) {
+  .top-text {
+    padding-top: 15%;
+  }
 h1.header-maru{ font-size: 130px; 
 }
 p.cuisine { font-size: 1.1em; }
 } 
 
 @media only screen and (min-width: 992px) {
+  .top-text {
+    padding-top: 10%;
+  }
 h1.header-maru{ font-size: 200px; 
 }
 p.cuisine { font-size: 25px; }
@@ -336,7 +345,7 @@ p.cuisine { font-size: 25px; }
 @media only screen and (min-width: 1200px) {
   .top-text {
     text-align: center;
-    padding-top: 15%;
+    padding-top: 5%;
 }
   p.cuisine { font-size: 30px; }
   h1.header-maru{ font-size: 250px; 
