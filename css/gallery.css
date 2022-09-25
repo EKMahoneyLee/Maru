@@ -1,7 +1,7 @@
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  font-size: 30px;
+  /* font-size: 30px; */
   text-align: center;
   box-sizing: border-box;
   max-height: 15000px;
@@ -83,10 +83,8 @@ div.m5 {
 div.m6 {
   background-image: url("../images/Kimchi\ Katsu-Don.jpg");
   background-size: cover;
-  /* position: relative; */
   background-repeat: no-repeat;
   background-position: center center;
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -107,53 +105,3 @@ div.m6 {
     max-height: 100%;
   }
 }
-
-/* .gallery-box {
-    position: relative;
-}
-
-.gallery-box img {
-    width: 100%;
-    max-width: auto;
-    max-height: 900px;
-    min-height: 500px;
-    height: clamp(500px 600px 900px);
-}
-
-
-.mySlides {
-    display:none;
-}
-
-.button-left {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    transform: scale(5,3);
-}
-
-.button-right {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    transform: scale(5,3);
-}
-
-button {
-   background-color: transparent;
-   border: none;
-   color: white;
-   padding: 100px 100px;
-}
-
-@media only screen and (max-width: 414px) {
-    .button-left {
-        top: -35px;
-        left: -50px;
-    }
-    
-    .button-right {
-        top: -35px;
-        right: -50px;
-    }
-} */

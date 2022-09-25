@@ -64,57 +64,68 @@ caption {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  /* cursor: url('../images/maru1.png') 4 12 , auto; */
-  /* cursor: url('../images/sushi1.png')  4 12 , auto; */
-  /* cursor: url('../images/sashimi.png')  4 12 , auto; */
-  /* overflow-x: hidden; */
 }
 
 .header-background {
-  background-attachment: fixed;
-  background-image: url("../images/main.jpg");
+  /* background-attachment: fixed; */
+  /* background-image: url("../images/m.jpg");
   background-color: black;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+  height: 100vh; */
+  /* background-position: bottom;
+  background-repeat: no-repeat;*/
+  /* background-size: cover; 
+  width: 100%; */
 }
-/* 
+
+.content {
+  position: relative;
+
+}
+
 .top-img {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  margin-top: -25px;
   width: 100%;
   max-height: 100vh;
-  margin: 0 auto;
-  display: block;
-  padding: 0;
-} */
+  background-color: black;
+}
 
 .top-text {
+  color: black;
+  position: absolute;
+  bottom: 2%;
+  right: 0;
   text-align: center;
-  padding-top: 5%;
+  /* padding-top: 5%; */
 }
 
 p.cuisine {
-  color: white;
   text-align: center;
   letter-spacing: 6px;
   text-transform: uppercase;
-  margin: -50px 0 -20px 0;
+  /* margin: -50px 0 -20px 0; */
   font-family: "Merienda", cursive;
-  font-size: 30px;
+  font-size: 15px;
 
   padding-bottom: 40px;
 }
 
 h1.header-maru {
   margin: 0;
-  font-size: 50px;
+  font-size: 100px;
   font-family: "Dancing Script", cursive;
-  color: white;
   font-weight: 900;
+  letter-spacing: 10px;
 }
 
 /* navbar */
+
+/* label {
+  display: none;
+} */
+
 label .menu {
   position: absolute;
   right: 10px;
@@ -130,8 +141,8 @@ label .menu {
 
 label .hamburger {
   position: absolute;
-  top: 50px;
-  left: 35px;
+  top: 15%;
+  right: 10%;
   width: 30px;
   height: 2px;
   background: white;
@@ -200,8 +211,8 @@ label ul {
   margin-left: 40px;
   z-index: 50;
   position: absolute;
-  top: 140px;
-  right: -110px;
+  top: 80px;
+  right: -135px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   opacity: 0;
@@ -218,18 +229,18 @@ label a {
 }
 
 .notice-sentence {
-  padding: 50px;
+  padding: 20px 10px 40px 10px;
 }
 
 .popup {
   width: 40%;
   background-color: black;
   /* width: 100vw; */
-  padding: 30px 40px;
+  /* padding: 30px 40px; */
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 55%;
+  top: 15%;
   border-radius: 8px;
   font-family: "Poppins", sans-serif;
   display: none;
@@ -239,7 +250,7 @@ label a {
 }
 .popup button {
   display: block;
-  margin: 0 0 20px auto;
+  margin: 0;
   background-color: transparent;
   font-size: 30px;
   color: #ffffff;
@@ -253,32 +264,11 @@ label a {
   z-index: 100;
 }
 
-.header-background {
-  /* background-attachment: fixed;
-  background-image: url('../images/main_1.jpg');
-  background-color: black;
-  height: 100vh; 
-  background-position: center;
-  background-repeat: no-repeat; */
-  background-size: cover;
-}
 
 @media only screen and (max-width: 414px) {
-  /* .header-background {
-        object-fit: cover;
-        background-position: bottom bottom;
-      
-    } */
-
-  .header-background {
-    /* background-attachment: fixed;
-      background-image: url('../images/main_1.jpg');
-      background-color: black;
-      height: 100vh; 
-      background-position: center;
-      background-repeat: no-repeat; */
-    background-size: cover;
-  }
+/* label {
+  display: block;
+} */
 
   .top-text {
     text-align: center;
@@ -291,17 +281,17 @@ label a {
     font-size: 10px;
   }
   h1.header-maru {
-    font-size: 70px;
+    font-size: 20px;
+    letter-spacing: 10px;
   }
 
-  .notice {
-    width: 100%;
+  .notice {    width: 100%;
     margin: 0;
   }
 
   .notice-sentence1 {
     font-size: 30px;
-    padding: 40px 0 50px 0;
+    /* padding: 40px 0 50px 0; */
   }
   .notice-sentence {
     font-size: 20px;
@@ -309,14 +299,19 @@ label a {
 
   .popup {
     width: 90%;
-    top: 54%;
+    top: 14%;
   }
   .popup button {
-    margin: 30px -10px 0 auto;
+    margin: 10px 10px 0 auto;
   }
-}
+} 
 
 @media only screen and (min-width: 415px) {
+
+  label {
+    display: block;
+  }
+
   .top-text {
     padding-top: 30%;
   }
@@ -335,7 +330,7 @@ label a {
 
   .notice-sentence1 {
     font-size: 30px;
-    padding: 50px 0 50px 0;
+    /* padding: 50px 0 50px 0; */
   }
   .notice-sentence {
     font-size: 25px;
@@ -343,10 +338,10 @@ label a {
 
   .popup {
     width: 90%;
-    top: 450px;
+    top: 250px;
   }
   .popup button {
-    margin: 30px -10px 0 auto;
+    margin: 30px 30px 0 auto;
   }
 }
 
@@ -360,7 +355,7 @@ label a {
 
   .popup {
     width: 60%;
-    top: 58%;
+    top: 18%;
   }
 }
 
@@ -381,7 +376,7 @@ label a {
     padding-top: 10%;
   }
   h1.header-maru {
-    font-size: 200px;
+    /* font-size: 200px; */
   }
   p.cuisine {
     font-size: 25px;
@@ -402,7 +397,7 @@ label a {
   }
 
   .popup {
-    top: 55%;
+    top: 25%;
   }
 }
 
@@ -415,10 +410,10 @@ label a {
     font-size: 30px;
   }
   h1.header-maru {
-    font-size: 250px;
+    font-size: 50px;
   }
 
   .popup button {
-    margin: 30px -10px 0 auto;
+    margin: 30px 30px 0 auto;
   }
-}
+} 
