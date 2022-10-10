@@ -93,10 +93,10 @@ caption {
 }
 
 .top-text {
-  color: black;
+  color: #ffffff;
   position: absolute;
-  bottom: 2%;
-  right: 0;
+  top: 2%;
+  right: 2%;
   text-align: center;
   /* padding-top: 5%; */
 }
@@ -276,16 +276,16 @@ label a {
 
   .top-text {
     text-align: center;
-    padding-top: 35%;
+    padding-top: 15%;
   }
 
   p.cuisine {
     letter-spacing: 4px;
     margin: 0 15px 15px 15px;
-    font-size: 10px;
+    font-size: 30px;
   }
   h1.header-maru {
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 10px;
   }
 
@@ -317,7 +317,7 @@ label a {
   }
 
   .top-text {
-    padding-top: 30%;
+    padding-top: 5%;
   }
   p.cuisine {
     letter-spacing: 4px;
@@ -325,7 +325,7 @@ label a {
     font-size: 0.9em;
   }
   h1.header-maru {
-    font-size: 90px;
+    font-size: 35px;
   }
   .notice {
     width: 100%;
@@ -350,8 +350,11 @@ label a {
 }
 
 @media only screen and (min-width: 600px) {
+  .top-text {
+    padding-top: 2%;
+  }
   h1.header-maru {
-    font-size: 120x;
+    font-size: 30x;
   }
   p.cuisine {
     font-size: 1em;
@@ -365,10 +368,10 @@ label a {
 
 @media only screen and (min-width: 768px) {
   .top-text {
-    padding-top: 15%;
+    padding-top: 2%;
   }
   h1.header-maru {
-    font-size: 130px;
+    font-size: 95px;
   }
   p.cuisine {
     font-size: 1.1em;
@@ -377,7 +380,7 @@ label a {
 
 @media only screen and (min-width: 992px) {
   .top-text {
-    padding-top: 10%;
+    padding-top: 2%;
   }
   h1.header-maru {
     /* font-size: 200px; */
@@ -408,13 +411,13 @@ label a {
 @media only screen and (min-width: 1200px) {
   .top-text {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 2%;
   }
   p.cuisine {
     font-size: 30px;
   }
   h1.header-maru {
-    font-size: 50px;
+    font-size: 150px;
   }
 
   .popup button {
