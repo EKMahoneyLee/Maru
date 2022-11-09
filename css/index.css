@@ -66,20 +66,8 @@ caption {
     sans-serif;
 }
 
-.header-background {
-  /* background-attachment: fixed; */
-  /* background-image: url("../images/m.jpg");
-  background-color: black;
-  height: 100vh; */
-  /* background-position: bottom;
-  background-repeat: no-repeat;*/
-  /* background-size: cover; 
-  width: 100%; */
-}
-
 .content {
   position: relative;
-
 }
 
 .top-img {
@@ -121,10 +109,6 @@ h1.header-maru {
 }
 
 /* navbar */
-
-/* label {
-  display: none;
-} */
 
 label .menu {
   position: absolute;
@@ -228,23 +212,13 @@ label a {
   text-decoration: none;
 }
 
-.notice-sentence1 {
-  text-transform: uppercase;
-}
-
-.notice-sentence {
-  padding: 20px 10px 40px 10px;
-}
-
 .popup {
-  width: 40%;
+  max-width: 420px;
   background-color: black;
-  /* width: 100vw; */
-  /* padding: 30px 40px; */
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 15%;
+  margin-top: 400px;
   border-radius: 8px;
   font-family: "Poppins", sans-serif;
   display: none;
@@ -252,6 +226,23 @@ label a {
   z-index: 100;
   color: #ffffff;
 }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.popup img {
+  padding: 20px;
+  min-width: 210px;
+  height: auto;
+}
+
+.popup .right {
+  padding: 20px 20px;
+}
+
 .popup button {
   display: block;
   margin: 0;
@@ -261,11 +252,19 @@ label a {
   background: #03549a;
   border-radius: 100%;
   width: 40px;
-  height: 40px;
+  height: 50px;
   border: none;
   outline: none;
   cursor: pointer;
   z-index: 100;
+}
+
+.notice-sentence1 {
+  text-transform: uppercase;
+}
+
+.notice-sentence {
+  padding: 20px 10px 40px 10px;
 }
 
 .menu_container {
@@ -299,8 +298,7 @@ label a {
   }
 
   .notice-sentence1 {
-    font-size: 30px;
-    /* padding: 40px 0 50px 0; */
+    font-size: 25px;
   }
   .notice-sentence {
     font-size: 20px;
@@ -311,7 +309,7 @@ label a {
     top: 14%;
   }
   .popup button {
-    margin: 10px 10px 0 auto;
+    margin: 10px 20px 0 auto;
   }
 } 
 
@@ -400,7 +398,8 @@ label a {
   }
 
   .notice-sentence1 {
-    font-size: 50px;
+    font-size: 40px;
+
   }
 
   .notice-sentence {
@@ -426,6 +425,6 @@ label a {
   }
 
   .popup button {
-    margin: 30px 30px 0 auto;
+    margin: 10px 20px 0 auto;
   }
 } 
