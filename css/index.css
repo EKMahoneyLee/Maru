@@ -247,6 +247,10 @@ label a {
   padding: 10px 20px 0 0;
 }
 
+.right {
+  margin-top: 40px;
+}
+
 /* .notice-sentence1 {
   text-transform: uppercase;
   font-size: 30px;
@@ -377,7 +381,7 @@ label a {
   }
   .popup {
     top: 10%;
-   width: 70%;
+    width: 70%;
   }
 
   .notice-sentence1 {
@@ -388,6 +392,7 @@ label a {
     max-width: 440px;
     margin: 0 auto 60px;
     font-size: 20px;
+    text-align: center;
   }
 }
 
