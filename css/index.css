@@ -213,20 +213,21 @@ label a {
 }
 
 .popup {
-  max-width: 620px;
+  max-width: 300px;
   background-color: black;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 10%;
+  top: 35%;
   width: 99%;
-  margin-top: 400px;
+  margin-top: 300px;
   border-radius: 8px;
   font-family: "Poppins", sans-serif;
   display: none;
   text-align: center;
   z-index: 100;
   color: #ffffff;
+  padding: 0 30px;
 }
 
 .popup img {
@@ -255,11 +256,36 @@ label a {
 }
 
 .right {
-  padding-left: 10px;
+  /* padding-left: 10px; */
+  padding: 40px 10px;
 }
 .notice-sentence1 {
+  color: #FF10F0;
   font-size: 25px;
+  animation: flicker 1.5s infinite alternate;
 }
+
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #0fa,
+      0 0 80px #0fa,
+      0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
 
 .notice-sentence {
   max-width: 550px;
@@ -339,11 +365,17 @@ label a {
   .popup {
     top: 5%;
     width: 95%;
+    max-width: 520px;
   }
 
   .notice-sentence1 {
     text-transform: uppercase;
     /* font-size: 30px; */
+  }
+
+  .right {
+    /* padding-left: 10px; */
+    padding: 70px 50px;
   }
   
   .notice-sentence {
