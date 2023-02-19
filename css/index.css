@@ -227,7 +227,7 @@ label a {
   text-align: center;
   z-index: 100;
   color: #ffffff;
-  padding: 0 30px;
+  padding: 0 10px;
 }
 
 .popup img {
@@ -257,7 +257,7 @@ label a {
 
 .right {
   /* padding-left: 10px; */
-  padding: 40px 10px;
+  padding: 40px 0;
 }
 .notice-sentence1 {
   color: #FF10F0;
@@ -375,7 +375,7 @@ label a {
 
   .right {
     /* padding-left: 10px; */
-    padding: 70px 50px;
+    padding: 70px 30px;
   }
   
   .notice-sentence {
