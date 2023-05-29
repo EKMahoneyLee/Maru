@@ -154,3 +154,9 @@ color: #0087ca;
     height: 40px;
   }
 }
+
+img.contact-logo {
+  width: 100px;
+  height: 100px;
+  padding: 10px 0;
+}
