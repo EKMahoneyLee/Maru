@@ -201,6 +201,14 @@ h5 span {
         margin: 70px auto;
     }
 
+    #menu-boxes label {
+        font-size: 24px;
+    }
+
+    .menu-row h3{
+        font-size: 24px;
+    }
+
     .split-column {
         float: left;
         width: 100vw;
